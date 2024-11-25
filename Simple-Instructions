@@ -1,0 +1,11 @@
+## Here is a simpler version of the insructions from the README file:
+
+1) Fork Repository to save it on Github account
+2) Clone Repository like you usually would
+3) Make sure VS Code, Python, and Git are all installed  
+4) Set up virtual environemt 
+    Use this command first: python -m venv venv (Says it works for mac, but I tried it and it works for windows too)
+    Use this command second: pip install -r requirements.txt
+5) Use this command:  uvicorn api.main:app --reload
+6) Search this up on browser to see project: `http://127.0.0.1:8000 ***
+7) Search this up on browser to see API documentation: http://127.0.0.1:8000/docs
